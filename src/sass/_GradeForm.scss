@@ -1,0 +1,18 @@
+.form-grade {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 15px;
+
+  &--button {
+    text-align: center;
+    justify-content: center;
+    padding: 2px 1px;
+    background-color: rgba(247, 247, 255, 0.514);
+  }
+}

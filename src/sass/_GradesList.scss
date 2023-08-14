@@ -1,0 +1,11 @@
+.grades-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 10px;
+
+  & li:not(:last-child) {
+    margin-bottom: 7px;
+  }
+}

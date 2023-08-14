@@ -1,0 +1,64 @@
+.subject {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #6ca8d6;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  // overflow: hidden;
+  padding: 20px;
+  // cursor: pointer;
+
+  &-heading {
+    font-size: 32px;
+    margin: 20px;
+  }
+
+  &-description {
+    font-size: 18px;
+    margin: 20px;
+  }
+
+  &-avg {
+    margin: 10px 2px;
+    display: block;
+  }
+
+  &-grade--button {
+    display: block;
+    margin: 5px 0;
+    align-self: center;
+  }
+}
+
+.subject-dark {
+  background: #9dcee5;
+  color: #333;
+}
+
+.button-remove {
+  padding: 2px;
+  background-color: rgba(247, 247, 255, 0.514);
+  color: rgb(221, 49, 49);
+  font-weight: bold;
+  align-items: center;
+  width: 15%;
+}
+
+.button-add-grade {
+  margin-bottom: 15px;
+}
+.button-show-grades {
+  display: block;
+  // justify-content: baseline;
+  margin-left: 280px;
+  margin-bottom: 10px;
+  background-color: rgba(247, 247, 255, 0.514);
+}
+
+.card-grades-list {
+  &.hide {
+    display: none;
+  }
+}
